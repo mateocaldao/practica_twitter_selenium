@@ -13,7 +13,7 @@ login.send_keys(Keys.RETURN)
 username = browser.find_element_by_class_name("js-signin-email")
 password = browser.find_element_by_name("session[password]")
 
-username.send_keys("mateo.cervino@live.u-tad.com")
+username.send_keys("seleniumPractica@gmail.com")
 password.send_keys("practicaSelenium")
 submit = browser.find_element_by_class_name("js-submit")
 submit.send_keys(Keys.RETURN)
